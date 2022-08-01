@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+
+	<style type="text/css">
+		div{
+			background: blue;
+			height: 100px;
+			width: 100px;
+			border-radius: 50px;
+			position: relative;
+			animation-name: first;
+			animation-direction: normal;
+			animation-duration: 10s;
+			animation-iteration-count: 2;
+		}
+		@keyframes first{
+			0%{background: blue; left: 0px; top: 0px}
+			25%{background: red; left: 200px;top: 0px;}
+			50%{background: yellow; left: 200px;top: 200px}
+			75%{background: green; left: 0px; top: 200px}
+			100%{background: gray; left: 0px; top: 0px;}
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div></div>
+
+
+</body>
+</html>
